@@ -7,9 +7,11 @@ import backIcon from '../../assets/images/icons/back.svg';
 import './styles.css';
 
 // aula 01 1:51:00 - interfaces e react function component
+// aula 03 6:00
 interface PageHeaderProps {
     // title?: string --> ? não orbrigatória
     title: string;
+    description?: string;
 }
 
 // React.FC
@@ -25,6 +27,9 @@ const PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
             </div>
             <div className="header-content">
                 <strong>{props.title}</strong>
+                {/* aula 03 7:00  */}
+                {props.description ? <p>{props.description}</p> : null}
+                {/* {props.description && <p>{props.description}</p>} */}
                 {props.children}
             </div>
         </header>

@@ -5,30 +5,56 @@ import logoImg from '../../assets/images/logo.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
+import api from '../../services/api';
 import './styles.css';
 
+// aula 03 1:49:00 // 1:54:00
+export interface Teacher {
+    id: number;
+    avatar: string;
+    bio: string;
+    cost: number;
+    name: string;
+    subject: string;
+    whatsapp: string;
+}
 
-function TeacherItem() {
+interface TeacherItemProps {
+    teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
+    // aula 03 1:58:00
+    function createNewConnection() {
+
+        api.post('/connections', {
+            user_id: teacher.id
+        })
+
+    }
+
     return (
-        <article className="teacher-item">
+        <article key={teacher.id} className="teacher-item">
             <header>
-                <img src="https://avatars2.githubusercontent.com/u/16025055?s=460&u=6015bc372526e5bf21e49040a5487862d7ef25c6&v=4" alt="Vinicius" />
+                <img src={teacher.avatar} alt={teacher.name} />
                 <div>
-                    <strong>Vinicius Morais Dutra</strong>
-                    <span>Química</span>
+                    <strong>{teacher.name}</strong>
+                    <span>{teacher.subject}</span>
                 </div>
             </header>
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>{teacher.bio}</p>
 
             <footer>
                 <p>Preço/hora
-                    <strong>R$ 80</strong>
+    <strong>R$ {teacher.cost}</strong>
                 </p>
-                <button type="button">
+                {/* aula 03 1:55:00 whatsapp button // connection 1:58:00  */}
+                <a target="_blank" onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
                     <img src={whatsappIcon} alt="whatsapp" />
                 Entrar em contato
-                </button>
+                </a>
             </footer>
 
         </article>
