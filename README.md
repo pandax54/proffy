@@ -201,9 +201,5 @@ $ git push origin {branch-name}
 Then send a Pull Request that will be analyzed and approved if it helps with the project
 
 
-### License 📝
-This project is under the MIT license. See the [LICENSE][license-url] for more information.
-
-
 ### Desafios
 https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
