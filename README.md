@@ -3,9 +3,6 @@
 
 <!-- VARS -->
 
-
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/b2d32fa731984f3e9c3eaa814861c9db
-[nlw-badge]: https://img.shields.io/badge/NLW-building-important?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==
 [license-url]: https://github.com/pandax54/proffy/blob/master/LICENSE
 [issues-url]: https://github.com/pandax54/proffy/issues/
 [node-url]: https://nodejs.org/en
@@ -30,12 +27,13 @@
 
 <div align="center">
 
-[![License][license-badge]][license-url]
-![Git Stars][star-badge]
-<!-- [![Netfly Stats][netfly-badge]][netfly-url] -->
-[![Netfly Stats][proffy-apk-badge]][proffy-apk-url]
 ![NLW Stats][nlw-badge]
 ![Codacy Quality][codacy-badge]
+![stacks](https://img.shields.io/static/v1?label=Nodejs&message=v12.17.0&color=brightgreen)
+![stacks](https://img.shields.io/static/v1?label=React&message=v16.13.1&color=brightgreen)
+![stacks](https://img.shields.io/static/v1?label=ReactNative&message=v16.13.1&color=brightgreen)
+![stacks](https://img.shields.io/static/v1?label=stack&message=Typescript&color=blue)
+![stacks](https://img.shields.io/static/v1?label=stack&message=Express&color=blue)
 
 
 </div>
@@ -47,11 +45,8 @@
     * [Requirements](#Requirements)
         * [Web](#Web)
         * [Server](#Server)
-        * ~~Mobile~~
+        * Mobile
     * [Running](#Running)
-* [Issues](#Issues-)
-    * [Report](#Report)
-    * ~~Trouble Shooting~~
 * [Contributing](#Contributing-)
 * [License](#License-)
 
@@ -181,12 +176,6 @@ $ cd mobile
 # Run the Mobile Version
 $ yarn start
 ```
-
-### Issues 🐛
-
-#### Report
-
-In case you are having any problem do not be shy to report to us in [Issues][issues-url] session.
 
 ### Contributing 🤝
 
