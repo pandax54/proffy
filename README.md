@@ -41,7 +41,7 @@
     * [Requirements](#Requirements)
         * [Web](#Web)
         * [Server](#Server)
-        * Mobile
+        * [Mobile](#Mobile)
     * [Running](#Running)
 * [Contributing](#Contributing-)
 * [License](#License-)
