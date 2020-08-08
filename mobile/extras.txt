@@ -1,0 +1,21 @@
+// aula 05 32:00
+expo picker -> implementar select do dia da semana
+
+ionic, feather icons
+
+// aula 05 conectando com a api 42:00
+yarn add axios
+
+
+// aula 1:01:00 
+expo install @react-native-community/async-storage
+https://docs.expo.io/versions/latest/sdk/async-storage/
+
+
+context
+
+aula 05 1:26:00 extras 
+https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
+https://www.notion.so/Layout-dos-desafios-Proffy-b65b509655194c02b3b4c9d4c74b78b4#764121892489487fa3f99332c9d10f87
+
+https://github.com/RicksonReis/NLW-Proffy
