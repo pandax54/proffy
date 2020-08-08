@@ -3,8 +3,6 @@
 
 <!-- VARS -->
 
-[license-url]: https://github.com/pandax54/proffy/blob/master/LICENSE
-[issues-url]: https://github.com/pandax54/proffy/issues/
 [node-url]: https://nodejs.org/en
 [yarn-url]: https://classic.yarnpkg.com/
 [npm-url]:  https://www.npmjs.com/
@@ -27,8 +25,6 @@
 
 <div align="center">
 
-![NLW Stats][nlw-badge]
-![Codacy Quality][codacy-badge]
 ![stacks](https://img.shields.io/static/v1?label=Nodejs&message=v12.17.0&color=brightgreen)
 ![stacks](https://img.shields.io/static/v1?label=React&message=v16.13.1&color=brightgreen)
 ![stacks](https://img.shields.io/static/v1?label=ReactNative&message=v16.13.1&color=brightgreen)
